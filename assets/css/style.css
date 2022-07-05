@@ -1,2 +1,5 @@
-/* .blogShort{ border-bottom:1px solid #ddd;}
-.add{background: #333; padding: 10%; height: 300px;} */
+
+.jb-list-img{
+    height: 100 !important;
+    width: 100 !important;
+}

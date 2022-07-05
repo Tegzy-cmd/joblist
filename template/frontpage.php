@@ -3,17 +3,12 @@ require 'inc/header.php'
 ?>
 <main class="">
   <div class="container col-md-12 col-lg-8 py-4">
-    <div class="row shadow-lg border rounded">
-      <!-- Mobile Thinking Image Start -->
-      <div class="d-md-block d-lg-none col-md-4">
-        <img src="../assets/images/thinking.png" width="320" height="390" class="" alt="">
-      </div>
-      <!-- Mobile thinking Image End -->
+    <div class="row shadow-lg border rounded px-4">
       <div class="px-2 mb-4 rounded-3 col-md-8 col-lg-8">
         <div class="container col-md-12 py-5">
           <h1 class="display-4 fw-bold">How to get a job?</h1>
           <p class="col-lg-9 blockquote">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
-          <button class="btn shadow-lg btn-primary btn-lg" type="button">Find Job</button>
+          <button class="btn shadow-lg btn-primary btn-lg mt-4" type="button">Find Job</button>
         </div>
       </div>
       <div class=" mb-4 d-none d-lg-block col-lg-4">
@@ -22,12 +17,7 @@ require 'inc/header.php'
     </div>
 
 
-    <div class="row my-4 shadow-lg rounded">
-      <!-- Mobile Search Image Start -->
-      <div class="px-3 d-md-block d-lg-none col-md-4">
-        <img src="../assets/images/search.png" width="250" height="250" class="" alt="">
-      </div>
-      <!-- Mobile Search Image End -->
+    <div class="row px-4 my-4 shadow-lg rounded">
       <div class="mb-4 d-none d-lg-block col-lg-4">
         <img src="../assets/images/search.png" class="img-fluid" alt="">
       </div>
@@ -35,7 +25,7 @@ require 'inc/header.php'
         <div class="container-fluid py-5">
           <h1 class="display-4 fw-bold">Find what suits you</h1>
           <p class="col-md-10 text-dark blockquote">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
-          <button class="btn btn-outline-primary bg-white btn-lg" type="button">Find Job</button>
+          <button class="btn btn-primary btn-lg shadow-lg mt-4" type="button">Find Job</button>
         </div>
       </div>
 
@@ -43,8 +33,8 @@ require 'inc/header.php'
     <div class="row py-4 px-2 shadow-lg mb-3">
     <?php foreach($jobs as $job):?>
         <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="card mb-5 shadow-sm">
-            <img src="../assets/images/tg.jpg" class="img-fluid" />
+          <div class="card mb-5 shadow-sm rounded">
+            <img src="../assets/images/que.jpg" width="200" height="240" class="mx-auto d-block" />
 
             <div class="card-body">
               <div class="card-title">
