@@ -3,49 +3,51 @@ require 'inc/header.php'
 ?>
 <main class="">
   <div class="container col-md-12 col-lg-8 py-4">
-    <div class="row shadow-lg border rounded px-4">
+    <div class="row my-auto shadow-sm rounded px-4 glass text-white">
       <div class="px-2 mb-4 rounded-3 col-md-8 col-lg-8">
-        <div class="container col-md-12 py-5">
+        <div class="container col-md-12 py-5 my-5">
           <h1 class="display-4 fw-bold">How to get a job?</h1>
-          <p class="col-lg-9 blockquote">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
-          <button class="btn shadow-lg btn-primary btn-lg mt-4" type="button">Find Job</button>
+          <p class="col-lg-9 blockquote">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+          <button class="btn shadow-lg btn-outline-light btn-lg my-auto mx-auto" type="button">Find Job</button>
         </div>
       </div>
       <div class=" mb-4 d-none d-lg-block col-lg-4">
-        <img src="../assets/images/thinking.png" class="img-fluid" alt="">
+        <img src="../assets/images/thinking.png" height="500" class="" alt="">
       </div>
     </div>
 
 
-    <div class="row px-4 my-4 shadow-lg rounded">
+    <div class="row shadow-sm rounded glass text-white px-4 my-auto">
       <div class="mb-4 d-none d-lg-block col-lg-4">
         <img src="../assets/images/search.png" class="img-fluid" alt="">
       </div>
       <div class="px-2 mb-4 rounded-3 col-md-8 col-lg-8">
-        <div class="container-fluid py-5">
+        <div class="container-fluid py-5 my-5">
           <h1 class="display-4 fw-bold">Find what suits you</h1>
-          <p class="col-md-10 text-dark blockquote">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
-          <button class="btn btn-primary btn-lg shadow-lg mt-4" type="button">Find Job</button>
+          <p class="col-md-10 blockquote">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+          <button class="btn btn-outline-light btn-lg shadow-lg mt-4" type="button">Find Job</button>
         </div>
       </div>
-
+      
     </div>
-    <div class="row py-4 px-2 shadow-lg mb-3">
+
+    
+    <div class="row py-4 px-2 shadow-sm mb-3">
     <?php foreach($jobs as $job):?>
         <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="card mb-5 shadow-sm rounded">
-            <img src="../assets/images/que.jpg" width="200" height="240" class="mx-auto d-block" />
+          <div class="card mb-5 glass  shadow-lg rounded">
+            <img src="../assets/images/que.jpg" width="300" height="300" class="mx-auto border border-primary rounded-circle d-block" />
 
-            <div class="card-body">
+            <div class="card-body text-white">
               <div class="card-title">
-                <h2><?php echo $job->job_title;?></h2>
+                <h3 class=""><?php echo $job->job_title;?></h3>
               </div>
               <div class="card-text">
                 <p>
                 <?php echo $job->description;?>
                 </p>
               </div>
-              <a href="#" class="btn btn-outline-primary rounded-0 float-end"
+              <a href="#" class="btn btn-outline-light rounded float-end"
                 >Read More</a
               >
             </div>
@@ -54,7 +56,7 @@ require 'inc/header.php'
     <?php endforeach;?>
     </div>
     <div class="row py-4 px-2 shadow-lg row-cols-1 row-cols-md-3 mb-3 text-center">
-      <div class="col">
+      <div class="col glass">
         <div class="card mb-4 rounded-3 shadow">
           <div class="card-header py-3">
             <h4 class="my-0 h1 fw-normal">Free</h4>

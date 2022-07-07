@@ -3,3 +3,14 @@
     height: 100 !important;
     width: 100 !important;
 }
+body{
+    background:no-repeat fixed url('../images/bg.jpg');
+}
+
+.glass{
+    backdrop-filter: blur(5px) saturate(100%);
+    -webkit-backdrop-filter: blur(5px) saturate(100%);
+    background-color: rgba(19, 9, 87, 0.35);
+    border-radius: 12px;
+    /* border: 1px solid rgba(255, 255, 255, 0.125); */
+}
