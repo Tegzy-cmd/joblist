@@ -26,11 +26,10 @@ require 'inc/header.php'
                     <div class="form-group position-relative">
                       <select name="country" id="country" class="nice-select pl-13 h-100 arrow-3 font-size-4">
                         <option value="" data-display="Location" class="text-uppercase">Location</option>
-                        <option value="">United States of America</option>
-                        <option value="">United Arab Emirates</option>
-                        <option value="">Bangladesh</option>
-                        <option value="">Pakistan</option>
-                      </select>
+                        <?php foreach($jobs as $job):?>
+                        <option value="<?php $job->location;?>"><?php echo $job->location; ?></option>
+                        <?php endforeach; ?>
+                        </select>
                       <span class="h-100 w-px-50 pos-abs-tl d-flex align-items-center justify-content-center font-size-6"><i class="icon icon-pin-3 text-primary font-weight-bold"></i></span>
                     </div>
                     <!-- ./select-city ends -->

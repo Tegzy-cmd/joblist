@@ -7,18 +7,18 @@
   <title><?php echo SITE_TITLE?></title>
   <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
   <!-- Bootstrap , fonts & icons  -->
-  <link rel="stylesheet" href="../assets/css/bootstrap.css">
-  <link rel="stylesheet" href="../assets/fonts/icon-font/css/style.css">
-  <link rel="stylesheet" href="../assets/fonts/typography-font/typo.css">
-  <link rel="stylesheet" href="../assets/fonts/fontawesome-5/css/all.css">
+  <link rel="stylesheet" href="../../assets/css/bootstrap.css">
+  <link rel="stylesheet" href="../../assets/fonts/icon-font/css/style.css">
+  <link rel="stylesheet" href="../../assets/fonts/typography-font/typo.css">
+  <link rel="stylesheet" href="../../assets/fonts/fontawesome-5/css/all.css">
   <!-- Plugin'stylesheets  -->
-  <link rel="stylesheet" href="../assets/plugins/aos/aos.min.css">
-  <link rel="stylesheet" href="../assets/plugins/fancybox/jquery.fancybox.min.css">
-  <link rel="stylesheet" href="../assets/plugins/nice-select/nice-select.min.css">
-  <link rel="stylesheet" href="../assets/plugins/slick/slick.min.css">
-  <link rel="stylesheet" href="../assets/plugins/ui-range-slider/jquery-ui.css">
+  <link rel="stylesheet" href="../../assets/plugins/aos/aos.min.css">
+  <link rel="stylesheet" href="../../assets/plugins/fancybox/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="../../assets/plugins/nice-select/nice-select.min.css">
+  <link rel="stylesheet" href="../../assets/plugins/slick/slick.min.css">
+  <link rel="stylesheet" href="../../assets/plugins/ui-range-slider/jquery-ui.css">
   <!-- Vendor stylesheets  -->
-  <link rel="stylesheet" href="../assets/css/main.css">
+  <link rel="stylesheet" href="../../assets/css/main.css">
   <!-- Custom stylesheet -->
 </head>
 
