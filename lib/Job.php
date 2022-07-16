@@ -18,4 +18,13 @@ class Job
 
         return $results;
     }
+    public function getAllcategory()
+    {
+        $this->db->query("SELECT * FROM categories ORDER BY categories.name ASC");
+        
+        // Assign Result Set
+        $results = $this->db->resultSet();
+
+        return $results;
+    }
 }

@@ -7,3 +7,4 @@ define('DB_USER', 'root');
 define('DB_PASS', '');
 define('DB_NAME', 'joblister');
 define('SITE_TITLE', 'Joblister');
+define('BRAND_IMG','../assets/image/l1/png/');
